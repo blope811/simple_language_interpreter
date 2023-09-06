@@ -1,0 +1,53 @@
+.page {
+	display: flex;
+}
+
+
+.text_editor_area {
+	display: flex;
+	width : 50vw;
+	height : 50vh;
+}
+
+.registers {
+	display: flex;
+	width: 50vw;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	width: 50vw;
+	height: 20vh;
+}
+
+
+.register {
+	display: flex;
+	width: 25vw;
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.register_display {
+	width: 10vw;
+	height: 10vh;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.button {
+	display: flex;
+	width: 33vw;
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+
